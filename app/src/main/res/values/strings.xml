@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple TV Launcher</string>
+
+    <string name="go_home">Back to main screen</string>
+    <string name="go_home_desc">Press the BACK button on the remote to go back one step</string>
+    <string name="cannot_open">Cannot open this. Please try again.</string>
+    <string name="loading">Loading…</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="selected">Selected</string>
+    <string name="shown">Shown</string>
+    <string name="hidden">Hidden</string>
+
+    <!-- Home -->
+    <string name="tile_all_apps">All apps</string>
+    <string name="tile_settings">Settings</string>
+    <string name="tile_google_tv">Google TV</string>
+    <string name="tile_original_home">Original TV home</string>
+    <string name="tile_tv_input">TV / HDMI</string>
+    <string name="empty_home">No favourite apps yet. Open Settings, then Choose apps.</string>
+    <string name="all_apps_title">All apps</string>
+    <string name="no_apps">No apps found</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="status_default">This launcher is the main screen of this TV.</string>
+    <string name="status_not_default">This launcher is NOT the main screen yet. Open Help and information below to see how to set it.</string>
+    <string name="set_text_size">Text size</string>
+    <string name="set_text_size_desc">Press OK to make the text bigger or smaller</string>
+    <string name="size_normal">Normal</string>
+    <string name="size_large">Large</string>
+    <string name="size_xlarge">Extra large</string>
+    <string name="set_simple">Simple mode</string>
+    <string name="set_simple_desc">Shows only the first 4 apps, with very large buttons</string>
+    <string name="set_choose">Choose apps</string>
+    <string name="set_choose_desc">Choose which apps appear on the main screen</string>
+    <string name="set_arrange">Arrange apps</string>
+    <string name="set_arrange_desc">Change the order of the apps on the main screen</string>
+    <string name="locked_value">Locked</string>
+    <string name="locked_toast">Turn off the Lock layout setting first.</string>
+    <string name="set_lock">Lock layout</string>
+    <string name="set_lock_desc">Keep this On so nobody changes the main screen by accident</string>
+    <string name="set_language">Language</string>
+    <string name="set_language_desc">Press OK to choose a language</string>
+    <string name="lang_system">Same as the TV</string>
+    <string name="set_weather">Weather</string>
+    <string name="set_weather_desc">Shows the weather on the main screen. Needs internet.</string>
+    <string name="set_city">City for the weather</string>
+    <string name="set_city_desc">Press OK to choose a city</string>
+    <string name="set_tv_settings">TV settings</string>
+    <string name="set_tv_settings_desc">Wi-Fi, sound, picture and other settings of the TV</string>
+    <string name="set_help">Help and information</string>
+    <string name="set_help_desc">How to set this as the main screen, and privacy</string>
+
+    <!-- Choose / arrange -->
+    <string name="choose_title">Choose apps</string>
+    <string name="choose_hint">Press OK to show or hide an app on the main screen. Newly installed apps must be chosen here.</string>
+    <string name="arrange_title">Arrange apps</string>
+    <string name="arrange_hint">Press OK on an app, then press UP or DOWN to move it, then press OK again to drop it. The top of the list is the first place on the main screen.</string>
+    <string name="arrange_moving">Moving. Press UP or DOWN, then OK.</string>
+    <string name="arrange_empty">There are no apps to arrange.</string>
+
+    <!-- TV inputs -->
+    <string name="inputs_title">TV / HDMI</string>
+    <string name="inputs_failed">This TV does not allow switching from here. Please use the INPUT or SOURCE button on the TV remote.</string>
+
+    <!-- Weather -->
+    <string name="weather_clear">Clear</string>
+    <string name="weather_cloudy">Cloudy</string>
+    <string name="weather_fog">Fog</string>
+    <string name="weather_rain">Rain</string>
+    <string name="weather_snow">Snow</string>
+    <string name="weather_storm">Thunderstorm</string>
+
+    <!-- Help -->
+    <string name="help_title">Help and information</string>
+    <string name="help_about_title">About this launcher</string>
+    <string name="help_about">No ads, no tracking, no account and no payment. It does not collect or send any personal data. All main features work without internet.</string>
+    <string name="help_default_title">Make this the main screen</string>
+    <string name="help_default">1) Press the HOME button on the remote. If the TV asks which home screen to use, choose this launcher and press Always.\n2) If nothing is asked, ask a family member to run this on a computer connected to the TV:\nadb shell cmd package set-home-activity vn.simpletv.launcher/.HomeActivity</string>
+    <string name="help_limits_title">If it does not work</string>
+    <string name="help_limits">Some TVs and Google TV devices do not allow the original home screen to be replaced. You can still open this launcher from the list of apps.</string>
+    <string name="help_return_title">Go back to the original screen</string>
+    <string name="help_return">Use the Google TV or Original TV home button on the main screen. To remove this launcher completely, uninstall it from the TV settings.</string>
+    <string name="help_hdmi_title">TV / HDMI button</string>
+    <string name="help_hdmi">It only appears if this TV allows apps to switch inputs. If it does not work, use the INPUT or SOURCE button on the remote.</string>
+    <string name="help_weather_title">About the weather</string>
+    <string name="help_weather">Only the position of the chosen city is sent to open-meteo.com to get the temperature. Nothing else. It is Off until you turn it on.</string>
+</resources>

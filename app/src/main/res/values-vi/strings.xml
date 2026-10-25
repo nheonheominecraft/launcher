@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Màn hình TV Dễ Dùng</string>
+
+    <string name="go_home">Về màn hình chính</string>
+    <string name="go_home_desc">Bấm nút BACK (quay lại) trên điều khiển để lùi một bước</string>
+    <string name="cannot_open">Không mở được. Xin thử lại.</string>
+    <string name="loading">Đang tải…</string>
+    <string name="on">Bật</string>
+    <string name="off">Tắt</string>
+    <string name="selected">Đã chọn</string>
+    <string name="shown">Đang hiện</string>
+    <string name="hidden">Đang ẩn</string>
+
+    <!-- Home -->
+    <string name="tile_all_apps">Tất cả ứng dụng</string>
+    <string name="tile_settings">Cài đặt</string>
+    <string name="tile_google_tv">Google TV</string>
+    <string name="tile_original_home">Màn hình gốc của TV</string>
+    <string name="tile_tv_input">TV / HDMI</string>
+    <string name="empty_home">Chưa có ứng dụng yêu thích. Vào Cài đặt, rồi chọn Chọn ứng dụng.</string>
+    <string name="all_apps_title">Tất cả ứng dụng</string>
+    <string name="no_apps">Không tìm thấy ứng dụng nào</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Cài đặt</string>
+    <string name="status_default">Màn hình này đang là màn hình chính của TV.</string>
+    <string name="status_not_default">Chưa đặt làm màn hình chính. Mở mục Hướng dẫn và thông tin bên dưới để xem cách đặt.</string>
+    <string name="set_text_size">Cỡ chữ</string>
+    <string name="set_text_size_desc">Bấm OK để chữ to hơn hoặc nhỏ hơn</string>
+    <string name="size_normal">Vừa</string>
+    <string name="size_large">To</string>
+    <string name="size_xlarge">Rất to</string>
+    <string name="set_simple">Chế độ đơn giản</string>
+    <string name="set_simple_desc">Chỉ hiện 4 ứng dụng đầu tiên, nút rất to</string>
+    <string name="set_choose">Chọn ứng dụng</string>
+    <string name="set_choose_desc">Chọn ứng dụng nào hiện trên màn hình chính</string>
+    <string name="set_arrange">Sắp xếp ứng dụng</string>
+    <string name="set_arrange_desc">Đổi thứ tự các ứng dụng trên màn hình chính</string>
+    <string name="locked_value">Đang khóa</string>
+    <string name="locked_toast">Hãy tắt mục Khóa bố cục trước.</string>
+    <string name="set_lock">Khóa bố cục</string>
+    <string name="set_lock_desc">Nên để Bật để không ai bấm nhầm làm đổi màn hình chính</string>
+    <string name="set_language">Ngôn ngữ</string>
+    <string name="set_language_desc">Bấm OK để chọn ngôn ngữ</string>
+    <string name="lang_system">Theo TV</string>
+    <string name="set_weather">Thời tiết</string>
+    <string name="set_weather_desc">Hiện thời tiết trên màn hình chính. Cần có internet.</string>
+    <string name="set_city">Thành phố xem thời tiết</string>
+    <string name="set_city_desc">Bấm OK để chọn thành phố</string>
+    <string name="set_tv_settings">Cài đặt của TV</string>
+    <string name="set_tv_settings_desc">Wi-Fi, âm thanh, hình ảnh và các cài đặt khác của TV</string>
+    <string name="set_help">Hướng dẫn và thông tin</string>
+    <string name="set_help_desc">Cách đặt làm màn hình chính, và về quyền riêng tư</string>
+
+    <!-- Choose / arrange -->
+    <string name="choose_title">Chọn ứng dụng</string>
+    <string name="choose_hint">Bấm OK để hiện hoặc ẩn ứng dụng trên màn hình chính. Ứng dụng mới cài cần được chọn ở đây.</string>
+    <string name="arrange_title">Sắp xếp ứng dụng</string>
+    <string name="arrange_hint">Bấm OK vào một ứng dụng, rồi bấm LÊN hoặc XUỐNG để di chuyển, rồi bấm OK lần nữa để thả. Đầu danh sách là vị trí đầu tiên trên màn hình chính.</string>
+    <string name="arrange_moving">Đang di chuyển. Bấm LÊN hoặc XUỐNG, rồi bấm OK.</string>
+    <string name="arrange_empty">Không có ứng dụng nào để sắp xếp.</string>
+
+    <!-- TV inputs -->
+    <string name="inputs_title">TV / HDMI</string>
+    <string name="inputs_failed">TV này không cho đổi nguồn từ đây. Hãy bấm nút INPUT hoặc SOURCE trên điều khiển.</string>
+
+    <!-- Weather -->
+    <string name="weather_clear">Trời quang</string>
+    <string name="weather_cloudy">Có mây</string>
+    <string name="weather_fog">Sương mù</string>
+    <string name="weather_rain">Mưa</string>
+    <string name="weather_snow">Tuyết</string>
+    <string name="weather_storm">Dông</string>
+
+    <!-- Help -->
+    <string name="help_title">Hướng dẫn và thông tin</string>
+    <string name="help_about_title">Giới thiệu</string>
+    <string name="help_about">Không quảng cáo, không theo dõi, không cần tài khoản, không thu phí. Không thu thập hay gửi dữ liệu cá nhân. Mọi chức năng chính dùng được khi không có internet.</string>
+    <string name="help_default_title">Đặt làm màn hình chính</string>
+    <string name="help_default">1) Bấm nút HOME trên điều khiển. Nếu TV hỏi dùng màn hình chính nào, chọn ứng dụng này rồi bấm Luôn luôn.\n2) Nếu TV không hỏi, nhờ người nhà chạy lệnh sau trên máy tính nối với TV:\nadb shell cmd package set-home-activity vn.simpletv.launcher/.HomeActivity</string>
+    <string name="help_limits_title">Nếu không đặt được</string>
+    <string name="help_limits">Một số TV và thiết bị Google TV không cho thay màn hình chính gốc. Bạn vẫn mở được ứng dụng này từ danh sách ứng dụng.</string>
+    <string name="help_return_title">Quay về màn hình gốc</string>
+    <string name="help_return">Bấm nút Google TV hoặc Màn hình gốc của TV ngay trên màn hình chính. Muốn gỡ hẳn ứng dụng này, hãy gỡ cài đặt trong phần cài đặt của TV.</string>
+    <string name="help_hdmi_title">Nút TV / HDMI</string>
+    <string name="help_hdmi">Nút này chỉ hiện nếu TV cho phép ứng dụng đổi nguồn. Nếu không dùng được, hãy bấm nút INPUT hoặc SOURCE trên điều khiển.</string>
+    <string name="help_weather_title">Về thời tiết</string>
+    <string name="help_weather">Chỉ vị trí của thành phố đã chọn được gửi tới open-meteo.com để lấy nhiệt độ. Không gửi gì khác. Mặc định là Tắt cho tới khi bạn bật.</string>
+</resources>
